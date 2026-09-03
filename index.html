@@ -4,6 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>OpenBoard</title>
+    
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap" rel="stylesheet">
+    
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -35,48 +40,37 @@
                 <span>7 vagas - atualizado agora</span>
             </div>
 
-        <div>
-        <img src="" alt="Logo">
-        <p>Vercel</p>
-        <h3>Full-stack Enginer</h3>
-        <span>R$20K - 30K</span>
-        <span>Remoto</span>
-        <span>2h</span>
-        <a href="">Candidatar-se</a>
-        </div>
-
-        <div>
-        <img src="" alt="Logo">
-        <p>Vercel</p>
-        <h3>Full-stack Enginer</h3>
-        <span>R$20K - 30K</span>
-        <span>Remoto</span>
-        <span>2h</span>
-        <a href="">Candidatar-se</a>
-        </div>
-
-        <div>
-        <img src="" alt="Logo">
-        <p>Vercel</p>
-        <h3>Full-stack Enginer</h3>
-        <span>R$20K - 30K</span>
-        <span>Remoto</span>
-        <span>2h</span>
-        <a href="">Candidatar-se</a>
-        </div>
-
-        <div>
-        <img src="" alt="Logo">
-        <p>Vercel</p>
-        <h3>Full-stack Enginer</h3>
-        <span>R$20K - 30K</span>
-        <span>Remoto</span>
-        <span>2h</span>
-        <a href="">Candidatar-se</a>
-        </div>
+        <div class="card">
+            <div class="card__avatar">
+                V
+            </div>
+            <div class="card__text">
+                <p>Vercel</p>
+                <h3 class="card__title">Full-stack Enginer</h3>
+                <span class="card__badge">R$20K - 30K</span>
+                <span class="card__badge">Remoto</span>               
+            </div>
+            <div class="card__actions">
+                <span>2h</span>
+                <a href="">Candidatar-se</a>
+            </div>
+        </div> 
         
-        
-        
+         <div class="card">
+            <div class="card__avatar card__avatar--grey">
+                V
+            </div>
+            <div class="card__text">
+                <p>Vercel</p>
+                <h3 class="card__title">Full-stack Enginer</h3>
+                <span class="card__badge">R$20K - 30K</span>
+                <span class="card__badge">Remoto</span>               
+            </div>
+            <div class="card__actions">
+                <span>2h</span>
+                <a href="">Candidatar-se</a>
+            </div>
+            </div>
     </main>
 
 <aside>
@@ -98,9 +92,9 @@
 
     <label for="ck-Meio periodo">
         <input type="checkbox" name="ck-Meio periodo" id="ck-Meio periodo"> Meio periodo
-    </label>
-    
+    </label> 
 </div>
+
 <div class="conteudo__filter">
     <p>Area</p>
     
@@ -114,9 +108,9 @@
 
     <label for="ck-gestão">
         <input type="checkbox" name="ck-gestão" id="ck-gestão"> gestão
-    </label>
-    
+    </label>   
 </div>
+
 <div class="conteudo__filter">
     <p>Localização</p>
     
@@ -130,15 +124,11 @@
 
     <label for="ck-SC">
         <input type="checkbox" name="ck-SC" id="ck-SC"> Santa Catarina
-    </label>
-    
+    </label>   
 </div>
 
 </aside>
-    </div>
-
-   
-    
+    </div>  
 <section>
     <h2>    Vagas novas, toda quinta-feira </h2>
    <p>Um resumo curto das melhores vagas direto no seu inbox</p> 
