@@ -84,4 +84,4 @@ function somar (a,b){
  console.log(multiplicar(5,3));
 
  const dividir = (a,b) => a/b;
- const multi = (a,b) => a*b;
+ const multi = (a,b) => a*b; 
