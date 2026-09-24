@@ -85,3 +85,25 @@ function somar (a,b){
 
  const dividir = (a,b) => a/b;
  const multi = (a,b) => a*b; 
+
+ const limpar = document.getElementById('btn-limpar');
+ const filtros = document.getElementsByClassName('filtro');
+ limpar.addEventListener('click', (event)=>{
+    event.preventDefault();
+
+    for (let i=0; i< filtros.length; i++){
+        filtros[i].checked=false;
+    }
+
+    showAlert('.alert');
+ })
+
+ function showAlert(el){
+    const divAlert=document.querySelector(el);
+
+    divAlert.style.display = 'block';
+
+    setTimeout(function(){
+        divAlert.style.display='none';
+    },3000)
+ }

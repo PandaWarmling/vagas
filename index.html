@@ -10,7 +10,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap" rel="stylesheet">
     
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
+    
 </head>
 <body>
     
@@ -77,22 +77,27 @@
 <aside>
     <div class="conteudo__header">
         <h3>Filtros</h3>
-        <a href="">limpar</a>
+        <a id="btn-limpar" href="">limpar</a>
+    
+    </div>
+
+    <div class="alert">
+        Filtros limpos!
     </div>
 
 <div class="conteudo__filter">
     <p>Tipo de vaga</p>
     
     <label for="ck-Efetivo">
-        <input type="checkbox" name="ck-Efetivo" id="ck-Efetivo"> Efetivo
+        <input class="filtro" type="checkbox" name="ck-Efetivo" id="ck-Efetivo"> Efetivo
     </label>
 
     <label for="ck-Estagio">
-        <input type="checkbox" name="ck-Estagio" id="ck-Estagio"> Estagio
+        <input class="filtro" type="checkbox" name="ck-Estagio" id="ck-Estagio"> Estagio
     </label>
 
     <label for="ck-Meio periodo">
-        <input type="checkbox" name="ck-Meio periodo" id="ck-Meio periodo"> Meio periodo
+        <input class="filtro" type="checkbox" name="ck-Meio periodo" id="ck-Meio periodo"> Meio periodo
     </label> 
 </div>
 
@@ -100,15 +105,15 @@
     <p>Area</p>
     
     <label for="ck-engenharia">
-        <input type="checkbox" name="ck-engenharia" id="ck-engenharia"> engenharia
+        <input class="filtro" type="checkbox" name="ck-engenharia" id="ck-engenharia"> engenharia
     </label>
 
     <label for="ck-Design">
-        <input type="checkbox" name="ck-Design" id="ck-Design"> Design
+        <input class="filtro" type="checkbox" name="ck-Design" id="ck-Design"> Design
     </label>
 
     <label for="ck-gestão">
-        <input type="checkbox" name="ck-gestão" id="ck-gestão"> gestão
+        <input class="filtro" type="checkbox" name="ck-gestão" id="ck-gestão"> gestão
     </label>   
 </div>
 
@@ -116,15 +121,15 @@
     <p>Localização</p>
     
     <label for="ck-SP">
-        <input type="checkbox" name="ck-SP" id="ck-SP"> São Paulo
+        <input class="filtro" type="checkbox" name="ck-SP" id="ck-SP"> São Paulo
     </label>
 
     <label for="ck-RJ">
-        <input type="checkbox" name="ck-RJ" id="ck-RJ"> Rio de Janeiro
+        <input class="filtro" type="checkbox" name="ck-RJ" id="ck-RJ"> Rio de Janeiro
     </label>
 
     <label for="ck-SC">
-        <input type="checkbox" name="ck-SC" id="ck-SC"> Santa Catarina
+        <input class="filtro" type="checkbox" name="ck-SC" id="ck-SC"> Santa Catarina
     </label>   
 </div>
 
@@ -164,7 +169,7 @@
     
     
 </footer>
-
+<script src="script.js"></script>
 
 </body>
 </html>
