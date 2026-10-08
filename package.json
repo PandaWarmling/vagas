@@ -1,0 +1,23 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "description": "aula 07-10",
+  "homepage": "https://github.com/PandaWarmling/vagas#readme",
+  "bugs": {
+    "url": "https://github.com/PandaWarmling/vagas/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PandaWarmling/vagas.git"
+  },
+  "license": "ISC",
+  "author": "Luiz Henrique",
+  "type": "commonjs",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "http-server": "^14.1.1"
+  }
+}
